@@ -15,5 +15,5 @@ function mystery(a) {
 # Answer 08/27/2024
 This is a recursive function that takes an array as an input, and finds the largest number in that array.
 It does so by slicing the array until there is only one element in it.
-Each instance of a string being sliced down by one element is saved in the call stack.
+Each instance of a string being sliced by one element is saved in the call stack.
 When the base case is reached, the function unwinds and iterates over every sliced string, and compares them to eachother to eventually find the largest number.
