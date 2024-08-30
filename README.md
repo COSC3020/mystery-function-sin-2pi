@@ -17,3 +17,8 @@ This is a recursive function that takes an array as an input, and finds the larg
 It does so by slicing the array until there is only one element in it.
 Each instance of a string being sliced by one element is saved in the call stack.
 When the base case is reached, the function unwinds and iterates over every sliced string, and compares them to eachother to eventually find the largest number.
+
+I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
